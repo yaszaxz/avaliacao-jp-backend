@@ -1,0 +1,21 @@
+{
+  "name": "avaliacao-jp-backend",
+  "version": "1.0.0",
+  "description": "Avaliação curso jovem programador backend",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "node --watch index.js",
+    "test": "test"
+  },
+  "author": "Thiago",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
