@@ -2,6 +2,10 @@ const ServiceCalculadora = require("../services/calculadora")
 
 class ControllerCalculadora{
 
+    Calculos(){
+        console.log('Opções de cálculos: ADIÇÃO, SUBTRAÇÃO, MULTIPLICAÇÃO, DIVISÃO, POTENCIÇÃO, RADICIAÇÃO')
+    }
+    
     Somar(req,res){
         try{
             const numero1 = req.body.numero1

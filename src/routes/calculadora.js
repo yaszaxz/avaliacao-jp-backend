@@ -3,6 +3,7 @@ const express = require('express')
 const ControllerCalculadora = require("../controller/calculadora")
 const router = express.Router();
 
+router.get('/calculadora/calculos', ControllerCalculadora.Calculos)
 router.post('/calculadora/somar', ControllerCalculadora.Somar)
 router.post('/calculadora/subtrair', ControllerCalculadora.Subtrair)
 router.post('/calculadora/multiplicar', ControllerCalculadora.Multiplicar)
