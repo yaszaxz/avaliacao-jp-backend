@@ -35,11 +35,11 @@ class ServiceCalculadora{
         return numero ** expoente
     }
 
-    Radiciar(numero,radical){
-        if(isNaN(numero) || isNaN(radical)){
+    Radiciar(numero,indice){
+        if(isNaN(numero) || isNaN(indice)){
             throw new Error ("Digite apenas números!")
         }
-        return numero ** (1/radical)
+        return numero ** (1/indice)
     }
 }
 

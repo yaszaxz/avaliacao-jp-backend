@@ -75,9 +75,9 @@ class ControllerCalculadora{
     Radiciar(req,res){
         try{
             const numero = req.body.numero
-            const radical = req.body.radical
+            const indice = req.body.indice
 
-            const resultado = ServiceCalculadora.Radiciar(numero,radical)
+            const resultado = ServiceCalculadora.Radiciar(numero,indice)
 
             res.status(200).json({"O resultado vale": resultado})
         }catch(e){
